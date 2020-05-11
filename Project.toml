@@ -1,0 +1,13 @@
+name = "Powells_minimization_travis"
+uuid = "9c7af5e8-d5ac-422b-903a-8785f1d52fee"
+authors = ["lukasz.radzinski"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
